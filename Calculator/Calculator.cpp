@@ -12,6 +12,8 @@ int main()
     cin >> a;
     cout << "Введите второй операнд" << endl;
     cin >> b;
+    cout << "Введите операцию" <<'+' <<'\t' << '-'<<'\t' << '*' <<'\t' << '/' << endl;
+    cin >> operation;
 
     return 0;
 }
