@@ -4,23 +4,13 @@ class Calc {
 	double second;
 
 public:
-	Calc(double a, double b) {
-		first = a;
-		second = b;
-	}
-	double add() {
-		return first + second;
-	}
+	Calc(double a, double b);
 
-	double mines() {
-		return first - second;
-	}
+	double add();
 
-	double multiply() {
-		return first * second;
-	}
+	double mines();
 
-	double divide() {
-		return first / second;
-	}
+	double multiply();
+
+	double divide();
 };
