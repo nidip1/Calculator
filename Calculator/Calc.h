@@ -13,6 +13,14 @@ public:
 	}
 
 	double mines() {
-		first - second;
+		return first - second;
+	}
+
+	double multiply() {
+		return first * second;
+	}
+
+	double divide() {
+		return first / second;
 	}
 };
