@@ -23,7 +23,7 @@ int main()
     case'*':cout << "Результат умножения" << obj.multiply(); break;
     case'/':cout << "Результат деления" << obj.divide(); break;
     default:
-        
+        cout << "Вы ввели неправильную операцию" << endl;
     }
 
     return 0;
