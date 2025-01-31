@@ -21,7 +21,10 @@ int main()
     case'+':cout << "Результат сложения " << obj.add(); break;
     case'-':cout << "Результат вычитания " << obj.mines(); break;
     case'*':cout << "Результат умножения " << obj.multiply(); break;
-    case'/':cout << "Результат деления " << obj.divide(); break;
+    case'/':if (obj.divide() == 505.6)
+        cout << "На ноль делить нельзя"<<endl;
+           else
+        cout << "Результат деления " << obj.divide(); break;
     default:
         cout << "Вы ввели неправильную операцию" << endl;
     }

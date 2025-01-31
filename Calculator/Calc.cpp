@@ -19,8 +19,7 @@ double Calc::multiply() {
 
 double Calc::divide() {
 	if (second == 0) {
-		std::cout << "На ноль делить нельзя" << std::endl;
-		return 0;
+		return 505.6;
 	}
 	return first / second;
 }
