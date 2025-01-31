@@ -13,15 +13,15 @@ int main()
     cin >> a;
     cout << "Введите второй операнд" << endl;
     cin >> b;
-    cout << "Введите операцию" <<'+' <<'\t' << '-'<<'\t' << '*' <<'\t' << '/' << endl;
+    cout << "Введите операцию " <<'+' <<'\t' << '-'<<'\t' << '*' <<'\t' << '/' << endl;
     cin >> operation;
     Calc obj(a,b);
     switch (operation)
     {
-    case'+':cout << "Результат сложения" << obj.add(); break;
-    case'-':cout << "Результат вычитания" << obj.mines(); break;
-    case'*':cout << "Результат умножения" << obj.multiply(); break;
-    case'/':cout << "Результат деления" << obj.divide(); break;
+    case'+':cout << "Результат сложения " << obj.add(); break;
+    case'-':cout << "Результат вычитания " << obj.mines(); break;
+    case'*':cout << "Результат умножения " << obj.multiply(); break;
+    case'/':cout << "Результат деления " << obj.divide(); break;
     default:
         cout << "Вы ввели неправильную операцию" << endl;
     }
