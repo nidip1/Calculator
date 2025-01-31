@@ -1,0 +1,8 @@
+Debug/
+Calculator.sln
+.vs/
+
+Calculator/Debug
+Calculator/Calculator.vcxproj
+Calculator/Calculator.vcxproj.filters
+Calculator/Calculator.vcxproj.user
